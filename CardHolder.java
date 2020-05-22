@@ -30,6 +30,54 @@ public class CardHolder {
         return checkedOutList;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getCardNumber() {
+        return cardNumber;
+    }
+
+    public void setCardNumber(int cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public boolean isCardExpired() {
+        return cardExpired;
+    }
+
+    public void setCardExpired(boolean cardExpired) {
+        this.cardExpired = cardExpired;
+    }
+
+    public List<String> getCheckedOutList() {
+        return checkedOutList;
+    }
+
+    public void setCheckedOutList(List<String> checkedOutList) {
+        this.checkedOutList = checkedOutList;
+    }
+
      
 
 
