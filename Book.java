@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Book extends LibraryItem  {
    //Book class inheriting all of the methods and properties of LibraryItem
-   private int noOfPages;
-   private String checkoutDate;
+   private int noOfPages=100;
+   private String checkoutDate="022/05/2020";
    private boolean availability;
    private List<Author> authorList= new ArrayList<Author>();
    private  PublishingCompany publishingcompany ;
@@ -88,7 +88,7 @@ public class Book extends LibraryItem  {
 
         @Override
         public String toString() {
-            return "Book \n [authorList=" + authorList + ", \n availability=" + availability + ", \n checkoutDate="
+            return "AuthorList=" + authorList + ", \n availability=" + availability + ", \n checkoutDate="
                     + checkoutDate + ",\n  noOfPages=" + noOfPages + ", \npublishingcompany=" + publishingcompany + "]";
         }
 

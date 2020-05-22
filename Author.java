@@ -30,8 +30,8 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Author \n [authorEmail=" + authorEmail + ",\n authorName=" + authorName + ", \n authorPhoneNo=" + authorPhoneNo
-                + "]";
+        return " AuthorEmail=" + authorEmail + "\n AuthorName=" + authorName + ", \n AuthorPhoneNo=" + 
+        authorPhoneNo+"\n";
     }
         
 }
