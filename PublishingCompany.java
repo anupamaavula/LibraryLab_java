@@ -29,8 +29,8 @@ public class PublishingCompany {
 
     @Override
     public String toString() {
-        return "PublishingCompany [publisherEmail=" + publisherEmail + ", publisherName=" + publisherName
-                + ", publisherPhoneNo=" + publisherPhoneNo + "]";
+        return "\n [publisherEmail=" + publisherEmail + ", \n publisherName=" + publisherName
+                + ",\n publisherPhoneNo=" + publisherPhoneNo + "]";
     }
 
     

@@ -11,14 +11,14 @@ public class LibraryTest {
         pc1.setPublisherEmail("publisher1@email.com");
 
         Author author1= new Author();
-        author1.setAuthorName("Author1");
+        author1.setAuthorName("Sam Manuel");
         author1.setAuthorPhoneNo("704556677");
-        author1.setAuthorEmail("Author1@email.com");
+        author1.setAuthorEmail("SMAnuel@email.com");
 
         Author author2= new Author();
-        author2.setAuthorName("Author2");
+        author2.setAuthorName("WillaimSpear");
         author2.setAuthorPhoneNo("704556333");
-        author2.setAuthorEmail("Author2@email.com");
+        author2.setAuthorEmail("WSpear@email.com");
         List<Author> authorList= new ArrayList<Author>();
         authorList.add(author1);
         authorList.add(author2);

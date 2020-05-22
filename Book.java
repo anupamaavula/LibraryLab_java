@@ -88,8 +88,8 @@ public class Book extends LibraryItem  {
 
         @Override
         public String toString() {
-            return "Book [authorList=" + authorList + ", availability=" + availability + ", checkoutDate="
-                    + checkoutDate + ", noOfPages=" + noOfPages + ", publishingcompany=" + publishingcompany + "]";
+            return "Book \n [authorList=" + authorList + ", \n availability=" + availability + ", \n checkoutDate="
+                    + checkoutDate + ",\n  noOfPages=" + noOfPages + ", \npublishingcompany=" + publishingcompany + "]";
         }
 
 
