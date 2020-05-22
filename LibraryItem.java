@@ -2,7 +2,7 @@ public class LibraryItem{
     //properties
     private int serialNumber;
     private String title;
-    private String authorName;
+    // private String authorName;
     private int yearPublished;
     private float price;
     private String publisher;
@@ -11,11 +11,11 @@ public class LibraryItem{
 
     public LibraryItem(){}
 
-    public LibraryItem(int serialNumber, String title, String authorName, int yearPublished, float price,
+    public LibraryItem(int serialNumber, String title, int yearPublished, float price,
             String publisher, String category,int validityPeriod) {
         this.serialNumber = serialNumber;
         this.title = title;
-        this.authorName = authorName;
+        // this.authorName = authorName;
         this.yearPublished = yearPublished;
         this.price = price;
         this.publisher = publisher;
@@ -39,13 +39,13 @@ public class LibraryItem{
         this.title = title;
     }
 
-    public String getAuthorName() {
-        return authorName;
-    }
+    // public String getAuthorName() {
+    //     return authorName;
+    // }
 
-    public void setAuthorName(String authorName) {
-        this.authorName = authorName;
-    }
+    // public void setAuthorName(String authorName) {
+    //     this.authorName = authorName;
+    // }
 
     public int getYearPublished() {
         return yearPublished;

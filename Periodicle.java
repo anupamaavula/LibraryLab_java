@@ -6,7 +6,7 @@ public class Periodicle extends LibraryItem{
     }
     public Periodicle(int serialNumber, String title, String authorName, int yearPublished, float price,
             String publisher, String category, int validityPeriod, String releaseDate) {
-        super(serialNumber, title, authorName, yearPublished, price, publisher, category, validityPeriod);
+        super(serialNumber, title,  yearPublished, price, publisher, category, validityPeriod);
         this.releaseDate = releaseDate;
     }
 

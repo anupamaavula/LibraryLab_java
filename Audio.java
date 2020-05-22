@@ -6,7 +6,7 @@ public class Audio extends LibraryItem{
 
     public Audio(int serialNumber, String title, String authorName, int yearPublished, float price, String publisher,
             String category, int validityPeriod, String contenFormat, float length) {
-        super(serialNumber, title, authorName, yearPublished, price, publisher, category, validityPeriod);
+        super(serialNumber, title,  yearPublished, price, publisher, category, validityPeriod);
         this.contenFormat = contenFormat;
         this.length = length;
     }

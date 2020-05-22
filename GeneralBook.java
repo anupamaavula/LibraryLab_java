@@ -1,4 +1,4 @@
-public class GeneralBook extends Book{
+public class GeneralBook extends Book implements Reservable,Loanable{
     private boolean isYearBook;
 
     public GeneralBook(int serialNumber, String title, String authorName, int yearPublished, float price,
@@ -15,6 +15,37 @@ public class GeneralBook extends Book{
 
     public void setYearBook(boolean isYearBook) {
         this.isYearBook = isYearBook;
+    }
+    // Implementing methods from IReservable
+    @Override
+    public boolean isReservable()
+    {
+       return true;
+    }
+    @Override
+    public int minReservableTime()
+    {
+        return 5;
+    }
+    @Override
+    public int maxReservableTime()
+    {
+        return 10;
+    }
+    // Implementing methods from ILoanable
+    @Override
+
+    public boolean isLoanable()
+    {
+        return true;
+    }
+    @Override
+    public int minLoanableTime(){
+       return 5;
+    }
+    @Override
+    public int maxLoanableTime(){
+       return 10;
     }
 
     
