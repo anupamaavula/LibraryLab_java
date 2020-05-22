@@ -9,6 +9,8 @@ public class CardHolder {
     private boolean cardExpired;
     private float fineAmount;
     List <String> checkedOutList = new ArrayList<String>();
+    private List<Book> loanedOverdue = new ArrayList<>();
+    private List<Periodicle> reservedOverdue = new ArrayList<>();
     // public boolean reserveItems(){
 
     // }
@@ -28,6 +30,8 @@ public class CardHolder {
         checkedOutList.add("General book2");
         return checkedOutList;
     }
+
+     
 
 
 
