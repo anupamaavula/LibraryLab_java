@@ -22,11 +22,11 @@ public class CardHolder {
     }
     public List <String> checkedOutItems(){
 
-        checkedOutList.add("Book1");
-        checkedOutList.add("Book2");
+        checkedOutList.add("Reference Book1");
+        checkedOutList.add("General Book2");
         checkedOutList.add("General book1");
-        checkedOutList.add("Magazine");
-        checkedOutList.add("General book2");
+        checkedOutList.add("Reference book2");
+        checkedOutList.add("General Book4");
         return checkedOutList;
     }
 
