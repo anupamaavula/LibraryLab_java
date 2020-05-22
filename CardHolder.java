@@ -7,10 +7,9 @@ public class CardHolder {
     private int cardNumber;
     private boolean active;
     private boolean cardExpired;
-    private float fineAmount;
+    
     List <String> checkedOutList = new ArrayList<String>();
-    private List<Book> loanedOverdue = new ArrayList<>();
-    private List<Periodicle> reservedOverdue = new ArrayList<>();
+    
     // public boolean reserveItems(){
 
     // }
